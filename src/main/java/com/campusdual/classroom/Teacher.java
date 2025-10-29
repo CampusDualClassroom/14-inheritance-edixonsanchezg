@@ -7,5 +7,12 @@ public class Teacher extends Person {
     public Teacher(String name, String surname, String area) {
         super(name, surname);
         this.area = area;
+
+    }
+
+    @Override
+    public void getDetails() {
+        super.getDetails();
+        System.out.println("Unidad: " + this.area);
     }
 }
